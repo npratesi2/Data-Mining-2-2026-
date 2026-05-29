@@ -1,0 +1,43 @@
+Column1,Column2,Column3,Column4,Column5,Column6
+Demographics,Basic_Demos-Enroll_Season,Season of enrollment,str,"Spring, Summer, Fall, Winter",
+Demographics,Basic_Demos-Age,Age of participant,float,,
+Demographics,Basic_Demos-Sex,Sex of participant,categorical int,"0,1","0=Male, 1=Female"
+Children's Global Assessment Scale,CGAS-Season,Season of participation,str,"Spring, Summer, Fall, Winter",
+Children's Global Assessment Scale,CGAS-CGAS_Score,Children's Global Assessment Scale Score,int,,
+Physical Measures,Physical-Season,Season of participation,str,"Spring, Summer, Fall, Winter",
+Physical Measures,Physical-HeartRate,Heart rate (beats/min),int,,
+FitnessGram Vitals and Treadmill,Fitness_Endurance-Season,Season of participation,str,"Spring, Summer, Fall, Winter",
+FitnessGram Vitals and Treadmill,Fitness_Endurance-Max_Stage,Maximum stage reached,int,,
+FitnessGram Child,FGC-Season,Season of participation,str,"Spring, Summer, Fall, Winter",
+FitnessGram Child,FGC-FGC_CU_Zone,Curl up fitness zone,categorical int,"0,1","0=Needs Improvement, 1=Healthy Fitness Zone"
+FitnessGram Child,FGC-FGC_GSND_Zone,Grip Strength fitness zone (non-dominant),categorical int,"1,2,3","1=Weak, 2=Normal, 3=Strong"
+FitnessGram Child,FGC-FGC_GSD_Zone,Grip Strength fitness zone (dominant),categorical int,"1,2,3","1=Weak, 2=Normal, 3=Strong"
+FitnessGram Child,FGC-FGC_PU_Zone,Push-up fitness zone,categorical int,"0,1","0=Needs Improvement, 1=Healthy Fitness Zone"
+FitnessGram Child,FGC-FGC_SRL_Zone,Sit & Reach fitness zone (left side),categorical int,"0,1","0=Needs Improvement, 1=Healthy Fitness Zone"
+FitnessGram Child,FGC-FGC_SRR_Zone,Sit & Reach fitness zone (right side),categorical int,"0,1","0=Needs Improvement, 1=Healthy Fitness Zone"
+FitnessGram Child,FGC-FGC_TL_Zone,Trunk lift fitness zone,categorical int,"0,1","0=Needs Improvement, 1=Healthy Fitness Zone"
+Bio-electric Impedance Analysis,BIA-Season,Season of participation,str,"Spring, Summer, Fall, Winter",
+Bio-electric Impedance Analysis,BIA-BIA_Activity_Level_num,Activity Level,categorical int,"1,2,3,4,5","1=Very Light, 2=Light, 3=Moderate, 4=Heavy, 5=Exceptional"
+Bio-electric Impedance Analysis,BIA-BIA_BMC,Bone Mineral Content,float,,
+Bio-electric Impedance Analysis,BIA-BIA_BMI,Body Mass Index,float,,
+Bio-electric Impedance Analysis,BIA-BIA_BMR,Basal Metabolic Rate,float,,
+Bio-electric Impedance Analysis,BIA-BIA_DEE,Daily Energy Expenditure,float,,
+Bio-electric Impedance Analysis,BIA-BIA_ECW,Extracellular Water,float,,
+Bio-electric Impedance Analysis,BIA-BIA_FFM,Fat Free Mass,float,,
+Bio-electric Impedance Analysis,BIA-BIA_FFMI,Fat Free Mass Index,float,,
+Bio-electric Impedance Analysis,BIA-BIA_FMI,Fat Mass Index,float,,
+Bio-electric Impedance Analysis,BIA-BIA_Fat,Body Fat Percentage,float,,
+Bio-electric Impedance Analysis,BIA-BIA_Frame_num,Body Frame,categorical int,"1,2,3","1=Small, 2=Medium, 3=Large"
+Bio-electric Impedance Analysis,BIA-BIA_ICW,Intracellular Water,float,,
+Bio-electric Impedance Analysis,BIA-BIA_LDM,Lean Dry Mass,float,,
+Bio-electric Impedance Analysis,BIA-BIA_LST,Lean Soft Tissue,float,,
+Bio-electric Impedance Analysis,BIA-BIA_SMM,Skeletal Muscle Mass,float,,
+Bio-electric Impedance Analysis,BIA-BIA_TBW,Total Body Water,float,,
+Physical Activity Questionnaire (Adolescents),PAQ_A-Season,Season of participation,str,"Spring, Summer, Fall, Winter",
+Physical Activity Questionnaire (Adolescents),PAQ_A-PAQ_A_Total,Activity Summary Score (Adolescents),float,,
+Physical Activity Questionnaire (Children),PAQ_C-Season,Season of participation,str,"Spring, Summer, Fall, Winter",
+Physical Activity Questionnaire (Children),PAQ_C-PAQ_C_Total,Activity Summary Score (Children),float,,
+Sleep Disturbance Scale,SDS-Season,Season of participation,str,"Spring, Summer, Fall, Winter",
+Sleep Disturbance Scale,SDS-SDS_Total_T,Total T-Score,int,,
+Internet Use,PreInt_EduHx-Season,Season of participation,str,"Spring, Summer, Fall, Winter",
+Internet Use,PreInt_EduHx-computerinternet_hoursday,Hours of using computer/internet,categorical int,"0,1,2,3","0=Less than 1h/day, 1=Around 1h/day, 2=Around 2hs/day, 3=More than 3hs/day"
